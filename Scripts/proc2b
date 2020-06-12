@@ -1,0 +1,7 @@
+#!/bin/sh
+a1=Audrius
+a2=15
+a3=IFF8/8
+echo $a1
+echo $a2
+echo $a3

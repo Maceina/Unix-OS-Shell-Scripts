@@ -1,0 +1,9 @@
+#!/bin/sh
+a=40
+b=6
+rez=$((40*6))
+echo "$rez"
+rez1=$((40/6))
+echo "$rez1"
+rez2=$((40%6))
+echo "$rez2"

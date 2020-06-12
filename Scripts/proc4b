@@ -1,0 +1,13 @@
+#!/bin/sh
+read s1
+read s2
+read s3
+echo $s1
+echo $s2
+echo $s3
+pirmas=$((s1/s2))
+antras=$((s1/s3))
+liekana=$((pirmas%antras))
+echo $pirmas
+echo $antras
+echo $liekana
